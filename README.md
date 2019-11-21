@@ -1,3 +1,21 @@
+## Welcome to my "Legacy" Page
+
+This website is meant to be used as a sink for code snippets I had developed during my years in the CERN ABP/HSI group. I hope that it will prove helpful to future colleagues in a more practical level.
+
+## Contents
+
+- EOS Project : [LHC Beam-Beam](eos_project/index.html) : A project space used for our tracking outputs
+- Code snippets for Multi-Parametric DA scans
+- Code snippets for lifetime analysis
+- Code snippets for emittance analysis
+- Code snippets for luminosity calculation 
+
+
+
+
+
+
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/nkarast/nkarastAccelLegacy/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
