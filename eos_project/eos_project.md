@@ -49,15 +49,21 @@ which are used as workspaces for studies concerning either LHC or HiLumi. As we 
 
 #### Backup scripts
 
-A bash script (backupEOS.sh) is included in the GitHub directory (eos_project). You can copy the script under your local `scratch0` folder.
-You need to edit the study names in the included for loop, as well as if the target directory is the project's `HL-LHC` or `LHC` directories. Running the script it will create a zip (higher compression) file of all the required folders and copy them to the appropriate EOS directories.
+Some mock-up backup scripts have been included in the GitHub repository under the eos_project folder.
+- [backupEOS.sh](https://github.com/nkarast/nkarastAccelLegacy/blob/master/eos_project/backupEOS.sh)
+- [removeDirs.sh](https://github.com/nkarast/nkarastAccelLegacy/blob/master/eos_project/removeDirs.sh)
+- [unzipFromEOS.sh](https://github.com/nkarast/nkarastAccelLegacy/blob/master/eos_project/unzipFromEOS.sh)
+
+You can copy these scripts under your local `scratch0` folder.
+
+You need to edit the study names in the included for loop, as well as if the target directory is the project's `HL-LHC` or `LHC` directories. Running the backup script it will create a zip (higher compression) file of all the required folders and copy them to the appropriate EOS directories. Similarly you can use the scripts to remove/delete the files from your work directory and also unzip from EOS to the local work directory.
 
 
 #### Having a sneak peek
 
 Do you know that you can have a sneak peek within the zipped files without having to extract the full folder?
 
-Let's take as an example the study in the `/eos/project/l/lhc-beambeam/sixtrack/HL-LHC/scratch0/TS_v13.zip`. Open an (i)python prompth
+Let's take as an example the study in the `/eos/project/l/lhc-beambeam/sixtrack/HL-LHC/scratch0/TS_v13.zip`. Open an (i)python prompt.
 ```python
 import zipfile
 archive = zipfile.ZipFile("/eos/project/l/lhc-beambeam/sixtrack/HL-LHC/scratch0/TS_v13.zip", "r")
@@ -75,3 +81,8 @@ archive.read("TS_v13/sixjobs/scan_definitions.sh")
 archive.extract("TS_v13/sixjobs/scan_definitions.sh")
 # a path will be print out which states where the file has been extracted
 ```
+
+
+
+#### Disclaimer
+The code is provided as is. - nkarast 2019
