@@ -4,7 +4,7 @@ This website is meant to be used as a sink for code snippets I had developed dur
 
 ## Contents
 
-- EOS Project : [LHC Beam-Beam](eos_project/index.html) : A project space used for our tracking outputs
+- EOS Project : [LHC Beam-Beam](eos_project/eos_project.md) : A project space used for our tracking outputs
 - Code snippets for Multi-Parametric DA scans
 - Code snippets for lifetime analysis
 - Code snippets for emittance analysis
