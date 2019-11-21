@@ -1,4 +1,7 @@
-#theme: jekyll-theme-cayman
 remote_theme: mmistakes/jekyll-theme-basically-basic
+lang: en-US
 title: CERN ABP Legacy Code
 description: A go-to page to be used as a reference
+author: Nikolaos Karastathis
+github_username: nkarast
+logo: pics/myself.jpeg
