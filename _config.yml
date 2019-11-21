@@ -2,6 +2,13 @@ remote_theme: mmistakes/jekyll-theme-basically-basic
 lang: en-US
 title: Nikos' Karastathis Legacy :)
 description: A go-to page to be used as a reference
-author: Nikolaos Karastathis
+author:
+  name: Nikolaos Karastathis
+  twitter: nkarast
+  picture: /assets/images/myself.jpeg
 github_username: nkarast
+twitter_username: nkarast
 logo: /assets/images/myself.jpeg
+search: true
+read_time: true
+copyright: "The repository is using the MIT licence. Nikos Karastathis, 2019"
