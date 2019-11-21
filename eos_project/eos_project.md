@@ -3,7 +3,6 @@ layout: post
 ---
 
 
-
 For the needs of storage space an EOS project space had been created.
 
 The name of the project is : **lhc-beambeam** and can be found under : **/eos/project/l/lhc-beambeam/**
@@ -12,20 +11,20 @@ The name of the project is : **lhc-beambeam** and can be found under : **/eos/pr
 
 The idea behind the project space is to store the full input files used, as well as the results of our DA study. The project space had been requested by myself (nkarast) and will be formally maintained by Yannis after my departure. The initial hard disk space of 100 TB had been requested, but can be extended upon request and need.
 
-### CERNBox Groups
+## CERNBox Groups
 In order to control the ACLs of the project space, several e-groups had been created.
 The e-groups can be modified using the [e-groups page](https://e-groups.cern.ch).
 - [cernbox-project-lhc-beambeam-admins](https://e-groups.cern.ch/e-groups/Egroup.do?egroupId=10289173&AI_USERNAME=NKARAST&searchField=0&searchMethod=1&searchValue=lhc-beambeam&pageSize=30&hideSearchFields=false&searchMemberOnly=false&searchAdminOnly=false&AI_SESSION=fuSOXpAnqRbiyJY-jYczBi_84Yx7y0Ccu_1fO_jx1AmivbETWDOy!2132884607!1574346592524): The administrators of the project
 - [cernbox-project-lhc-beambeam-readers](https://e-groups.cern.ch/e-groups/Egroup.do?egroupId=10289174&AI_USERNAME=NKARAST&searchField=0&searchMethod=1&searchValue=lhc-beambeam&pageSize=30&hideSearchFields=false&searchMemberOnly=false&searchAdminOnly=false&AI_SESSION=fuSOXpAnqRbiyJY-jYczBi_84Yx7y0Ccu_1fO_jx1AmivbETWDOy!2132884607!1574346592524) The accounts that have read access
 - [cernbox-project-lhc-beambeam-writers](https://e-groups.cern.ch/e-groups/Egroup.do?egroupId=10289175&AI_USERNAME=NKARAST&searchField=0&searchMethod=1&searchValue=lhc-beambeam&pageSize=30&hideSearchFields=false&searchMemberOnly=false&searchAdminOnly=false&AI_SESSION=fuSOXpAnqRbiyJY-jYczBi_84Yx7y0Ccu_1fO_jx1AmivbETWDOy!2132884607!1574346592524) The accounts that have write access.
 
-### Project Webpage
+## Project Webpage
 
 A webpage directory had also been requested for the project. So far it has never be used. However you can easily update the html file under: `/eos/project/l/lhc-beambeam/www/website/index.html`, which will update the webpage: [lhc-beambeam.web.cern.ch](lhc-beambeam.web.cern.ch).
 
 I had requested the webpage to be valid until Nov. 2020 (need to be manually updated if needed via the CERN's Web Services) and transfered the ownership to `yannis`.
 
-### Project Contents
+## Project Contents
 
 The initial project contents include
 
@@ -51,7 +50,7 @@ which are used as workspaces for studies concerning either LHC or HiLumi. As we 
       - TS_v13.zip
 
 
-### Backup scripts
+## Backup scripts
 
 Some mock-up backup scripts have been included in the GitHub repository under the eos_project folder.
 - [backupEOS.sh](https://github.com/nkarast/nkarastAccelLegacy/blob/master/eos_project/backupEOS.sh)
@@ -63,7 +62,7 @@ You can copy these scripts under your local `scratch0` folder.
 You need to edit the study names in the included for loop, as well as if the target directory is the project's `HL-LHC` or `LHC` directories. Running the backup script it will create a zip (higher compression) file of all the required folders and copy them to the appropriate EOS directories. Similarly you can use the scripts to remove/delete the files from your work directory and also unzip from EOS to the local work directory.
 
 
-### Having a sneak peek
+## Having a sneak peek
 
 Do you know that you can have a sneak peek within the zipped files without having to extract the full folder?
 
@@ -88,5 +87,5 @@ archive.extract("TS_v13/sixjobs/scan_definitions.sh")
 
 
 
-### Disclaimer
+## Disclaimer
 The code is provided as is. - nkarast 2019
