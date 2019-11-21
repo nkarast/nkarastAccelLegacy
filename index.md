@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: page
 ---
 
 *"If I have seen further it is by standing on the shoulders of giants"*
