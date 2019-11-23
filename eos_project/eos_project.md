@@ -86,6 +86,20 @@ archive.extract("TS_v13/sixjobs/scan_definitions.sh")
 # a path will be print out which states where the file has been extracted
 ```
 
+## Usual acronyms
+
+The name of the studies are usually prefixed with a combination of letters that dictates the X-Y axes of the multi-parametric scan. Some examples to help you navigate include:
+
+- `ts` : tune scan
+- `x` : half-crossing angle
+- `I` or `Nb` : bunch intensity
+- `B` : beta-star, usually refering to IP1/5, unless mentioned otherwise
+- `S` : parallel separation
+- `C` : Chromaticity
+- `O` or `IMO`: octupole current (`IMO` usually also contains the sign [`m`|`p`] for [negative|positive] and the value in Amperes)
+- `Q` : the working point. The 3 decimals for Qx and Qy are combined, for example (Qx, Qy) = (62.315, 60.320) is noted as `Q315320`
+- `onlhcb` or `onalice` refer to the polarity of the spectrometer in IR8 or IR2.
+- ...
 
 
 ## Disclaimer
