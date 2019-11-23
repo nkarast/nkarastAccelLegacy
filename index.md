@@ -10,7 +10,7 @@ No, no, no, don't get me wrong! Although a husky fellow, I don't consider myself
 ## Contents
 
 - EOS Project : [LHC Beam-Beam](eos_project/eos_project.md) : A project space used for our tracking outputs
-- Code snippets for Multi-Parametric DA scans
+- Code snippets for [Multi-Parametric DA scans](scan_scripts/scan_scripts.md)
 - Code snippets for lifetime analysis
 - Code snippets for emittance analysis
 - Code snippets for luminosity calculation
