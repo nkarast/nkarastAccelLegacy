@@ -2,7 +2,7 @@
 layout: post
 ---
 
-# eos/lhc-beambeam
+# EOS Space
 
 For the needs of storage space an EOS project space had been created.
 
