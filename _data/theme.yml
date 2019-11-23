@@ -2,3 +2,7 @@ skin: default
 navigation_pages:
   - eos_project/eos_project.md
   - scan_scripts/scan_scripts.md
+  - lifetime/lifetime.md
+  - emittance/emittance.md
+  - luminosity/luminosity.md
+  - Useful Codes/software.md
